@@ -173,7 +173,7 @@ span{
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: 2rem solid var(--bg-color);
+    border: .5rem solid var(--bg-color);
     transition: .5s ease;
     border-radius: 5rem;
     
@@ -211,10 +211,12 @@ span{
     overflow: hidden;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
+    
 }
 .school-box img{
     width: 100%;
     transition: .5s ease;
+    border: .5 solid var(--bg-color);
 }
 .school-img img{
     width: 640px;
@@ -222,6 +224,7 @@ span{
 }
 .school-box:hover img{
     transform: scale(1.1);
+    border-color: var(--main-color);
 }
 .school-box .school-layar{
     position: absolute;
