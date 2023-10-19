@@ -43,7 +43,7 @@ ScrollReveal({
     ScrollReveal().reveal('.about-img', { origin: 'left' });
     //typed js
     const typed = new Typed('.multiple-text',{
-        strings:['Web Developer','Android Developer','Graphic Designer'],
+        strings:['Web Developer','Android Developer','Graphic Designer','Santri'],
         teypSpeed:100,
         backSpeed:100,
         backDelay:1000,
