@@ -11,7 +11,7 @@
 }
 :root{
     --bg-color:#fff;
-    --second-bg-color:#ececec;
+    --second-bg-color:#ecece bblc;
     --text-color:#000000;
     --main-color:rgb(252, 207, 84);
 }
@@ -192,6 +192,58 @@ span{
 .services-box p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+.container{
+    width: 100%;
+    background-color: gray;
+    border-radius: 20px;
+}
+.skillset{
+    text-align: right;
+    color: var(--secon-text);
+    padding: 8px 8px;
+    border-radius: 20px 0 0 20px;
+}
+.html{
+    width: 85%;
+    background-color: orangered;
+}
+.ht .bx{
+    color: orangered;
+}
+.css{
+    width: 73%;
+    background-color: blue;
+}
+.cs .bx{
+    color: blue;
+}
+.js{
+    width: 35%;
+    background-color: yellow;
+}
+.j .bx{
+    color: yellow;
+}
+.bootstrap{
+    width: 89%;
+    background-color: rgb(115, 0, 255);
+}
+.bs .bx{
+    color: rgb(115, 0, 255);
+}
+.php{
+    width: 77%;
+    background-color: rgb(141, 69, 228);
+}
+.ph .bx{
+    color: rgb(141, 69, 228);
+}
+.main-container p{
+    margin-bottom: 2px;
+    font-size: 25px;
+    color: var(--secon-text);
+    font-weight: 700;
 }
 .school{
     background: var(--second-bg-color);
